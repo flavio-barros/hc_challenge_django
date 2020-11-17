@@ -8,5 +8,5 @@ class Report(models.Model):
 
 class ReportResponse(models.Model):
     message = models.TextField()
-    report = models.ForeignKey(Report, on_delete=models.CASCADE)
+    report = models.ForeignKey(Report, on_delete=models.CASCADE, related_name="responses")
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)

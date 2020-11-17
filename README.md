@@ -1,7 +1,5 @@
 ## HC_Challenge_Django
 
-An example Django REST framework project for test driven development.
-
 ### API Endpoints
 
 * **/users** (Get users)
